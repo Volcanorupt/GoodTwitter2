@@ -1777,7 +1777,7 @@ a.gt2-trend {
       width: 34px;
 
       img {
-        border-radius: 9999px;
+        border-radius: 16px;
         height: 100%;
         width: 100%;
         @include grayscaleHover;
@@ -1797,7 +1797,7 @@ a.gt2-trend {
       background-color: var(--color-user);
       color: var(--color-text-2);
       padding: 0 16px;
-      border-radius: 9999px;
+      border-radius: 16px;
 
       &:hover {
         cursor: pointer;
@@ -2067,7 +2067,7 @@ body[data-gt2-path^="settings/"] {
         transition: opacity 0.2s ease-in-out;
         background-color: var(--color-gray);
         opacity: 0;
-        border-radius: 9999px;
+        border-radius: 16px;
         padding: 10px;
       }
 
@@ -2315,7 +2315,7 @@ body[data-gt2-path="i/moment_maker"] {
       height: 82px;
       margin: -30px 0 0 8px;
       background-color: var(--color-elem);
-      border-radius: 9999px;
+      border-radius: 16px;
       align-items: center;
       justify-content: center;
 
@@ -2454,7 +2454,7 @@ div[data-testid=sidebarColumn] .gt2-dashboard-profile {
   &.gt2-update-notice {
     .gt2-sidebar-notice-content svg {
       fill: white;
-      border-radius: 9999px;
+      border-radius: 16px;
       border: 3.5px solid green;
       background-color: green;
       height: 12px;
@@ -2609,7 +2609,7 @@ body[data-payment-endpoint-path] {
     width: 20px;
     height: 20px;
     border: solid 1px var(--color-bg);
-    border-radius: 9999px;
+    border-radius: 16px;
     position: relative;
 
     &:nth-child(1) {
